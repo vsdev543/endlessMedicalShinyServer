@@ -1,0 +1,14 @@
+name: EMSC
+title: EMSC
+username:
+account: dodxtx
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 2704287
+bundleId: 5430871
+url: https://dodxtx.shinyapps.io/EMSC/
+when: 1641241473.69009
+lastSyncTime: 1641241473.69009
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: EndlessMedical-API-Symptom-Checker-Demo-APP.zip|googletag.R
