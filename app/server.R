@@ -66,10 +66,18 @@ library(shinyanimate)
 library(shinyWidgets)
 
 IntentionQue <<- NULL
-HowManyQuestionsToAskBeforeShowingResults <<- 5
+# HowManyQuestionsToAskBeforeShowingResults <<- 5
 
 
 shinyServer(function(input, output, session) {
+  HowManyQuestionsToAskBeforeShowingResults<-reactive({
+    if(is.null(input$numx)){
+      5
+    }else{
+      input$numx
+    }
+  })
+  
   shinyjs::hide(
     "BusyIndicator",
     anim = TRUE,
@@ -1739,7 +1747,7 @@ shinyServer(function(input, output, session) {
                                   value = TRUE)
                    )
                  
-                 if (SoFarFeatures > HowManyQuestionsToAskBeforeShowingResults)
+                 if (SoFarFeatures > HowManyQuestionsToAskBeforeShowingResults())
                    if (length(ResultsStatus) > 0)
                      if ((ResultsPercents[1] > 20))
                        

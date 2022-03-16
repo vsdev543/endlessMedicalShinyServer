@@ -68,7 +68,17 @@ shinyUI(
     theme = "bootstrap1-paper.css",
     
     
-    
+    wellPanel(
+      div(style='display:flex; justify-content:space-around;width:100vw;',
+        h5("Maximum number of Questions to answer (the more questions, the more precision for the diagnosis)"),
+        numericInput('numx',label = NULL,width = '70px',value = 5)
+      ),
+      div(style='width:100vw; padding: 0 1.75vw;',
+        "IMPORTANT. Please note that if our bot detects inconsistent responses, there will no further questions to ask to conclude with a preliminary diagnosis. In such a case, please refresh the screen and start over.
+",
+        p("")
+      )
+        ),
     absolutePanel(
       id = "Powered",
       style = "  height: 27px;     line-height: 23px;width: 232px;    " ,
@@ -88,7 +98,6 @@ shinyUI(
       
       style = "background-color:#ffffffbb; border-radius:20px;  color:black; z-index:31; opacity:1; overflow-x: hidden;  overflow-y: hidden;  "     ,
       draggable = FALSE,
-      
       HTML(
         "  <a href='http://www.endlessmedical.com' style='color:#000000;' target='_blank' ><p align='center '; style='text-align: center; '><b>
          Powered by EndlessMedical.com</a> </b></p>
@@ -551,7 +560,7 @@ background-attachment: fixed;
 
                                        In case of any symptoms, complaints or problems, always immediately seek medical advice appropriately and don't delay contacting professional healthcare services. Only after you contact healthcare profesional use this symptom checker.
 
-                                           <br><br>Please read our terms of use of our services, which are available for read <a href=https://cruzmedika.com/general-terms-and-conditions/>here</a>
+                                           <br><br>Have you read and accept the terms of use of our Site and the manufacturer of the Chatbot, that are available to read at <a src=www.cruzmedika.com>www.cruzmedika.com</a> and <a src=Endlessmedical.com>Endlessmedical.com</a> respectively?
 
 <img src='logobluetrans.png'  width='20px' style='margin-left: 0px; align:left; float:left; position: relative;
     top: 22px;
