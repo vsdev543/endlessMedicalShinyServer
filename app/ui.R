@@ -485,7 +485,7 @@ background-attachment: fixed;
                "
  
  
-                     Hi, my name is DoDxTx. I am an artificial intelligence symptom checker. <br><br>
+                     Hi, my name is Cruzbot, I am an artificial intelligence symptom checker. <br><br>
                      I can provide educational information on your symptoms, list diseases usually  associated with your symptoms, or provide medical specialties usually treating patients with the symptoms.<br><br>"
 #                     Your Session ID is:<b>"),SessionIDCurrent,HTML("</b><br><br> <b>Anyone who can see this Session ID will know all your answers to all questions. </b><br><br>The Session ID does not, however store any protected health information like your indentity, name, IP address or zip code. </br></br>
 #                     
@@ -514,7 +514,7 @@ background-attachment: fixed;
             # 
             # 
              
-                )
+               )
               )),
           
           duration = 'faster',
@@ -551,7 +551,7 @@ background-attachment: fixed;
 
                                        In case of any symptoms, complaints or problems, always immediately seek medical advice appropriately and don't delay contacting professional healthcare services. Only after you contact healthcare profesional use this symptom checker.
 
-                                           <br><br>Have you read and do you accept this terms and terms of use of EndlessMedical.com services, which are available for read at <a href='https://endlessmedical.com/termsofuse/'>EndlessMedical.com</a>?
+                                           <br><br>Please read our terms of use of our services, which are available for read <a href=https://cruzmedika.com/general-terms-and-conditions/>here</a>
 
 <img src='logobluetrans.png'  width='20px' style='margin-left: 0px; align:left; float:left; position: relative;
     top: 22px;

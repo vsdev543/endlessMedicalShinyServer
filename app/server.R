@@ -66,7 +66,7 @@ library(shinyanimate)
 library(shinyWidgets)
 
 IntentionQue <<- NULL
-HowManyQuestionsToAskBeforeShowingResults <<- 25
+HowManyQuestionsToAskBeforeShowingResults <<- 5
 
 
 shinyServer(function(input, output, session) {
@@ -232,7 +232,7 @@ shinyServer(function(input, output, session) {
                             )
                           )))
                    },
-                   duration =                      'faster',
+                   duration = 'faster',
                    delay = 0,
                    steps = 50,
                    iteration = NULL))
