@@ -77,7 +77,10 @@ shinyUI(
         "IMPORTANT. Please note that if our bot detects inconsistent responses, there will no further questions to ask to conclude with a preliminary diagnosis. In such a case, please refresh the screen and start over.
 ",
         p("")
-      )
+      ),
+      div(style='display:flex; justify-content:space-around;width:100vw;',
+        tags$div(id="google_translate_element")
+      ),
         ),
     absolutePanel(
       id = "Powered",
@@ -107,7 +110,14 @@ shinyUI(
     top: -32px;
     left: -212px;
 '>
+ <script type='text/javascript'>
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+}
+</script>
 
+<script type='text/javascript' src='//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'></script>
+  
 
         "
         
