@@ -112,7 +112,7 @@ shinyUI(
 '>
  <script type='text/javascript'>
 function googleTranslateElementInit() {
-  new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+  new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.VERTICAL}, 'google_translate_element');
 }
 </script>
 
@@ -209,6 +209,10 @@ function googleTranslateElementInit() {
 
 
     border-radius: 20px 20px 20px 20px;
+}
+
+.goog-te-combo{
+  padding:2px 10px;
 }
 
 .btn {
