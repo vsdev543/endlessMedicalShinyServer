@@ -211,9 +211,7 @@ function googleTranslateElementInit() {
     border-radius: 20px 20px 20px 20px;
 }
 
-.goog-te-combo{
-  padding:2px 10px;
-}
+
 
 .btn {
   white-space: normal;
@@ -330,6 +328,14 @@ background: white;
 }
 
 
+.goog-te-combo{
+  padding:2px 10px;
+}
+
+.goog-te-banner-frame{
+  display:none !important;
+}
+
 
 
         body {
@@ -337,7 +343,7 @@ background: white;
   display: flex ;
   flex-direction: column;
   align-items: center;
-
+  top:0px !important;
 
 font-family: roboto, helvetica;
 
